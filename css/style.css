@@ -1,0 +1,220 @@
+	/* 
+
+	CSS DOCUMENT
+	Theme Name: Seu Template
+	Theme URI: http://www.com
+	Description: Folha de estilos
+	Author: Jean Carlos
+	Author URI: http://wwww.com
+	Version: 1.0
+	Tags: separadas por v�rgulas para identificar seu template
+
+	*/
+
+	/* DEFAULTS */
+
+	* {
+		margin: 0;
+		padding: 0;
+		outline: 0;
+	}
+
+	img {
+		border: 0px;
+		margin: 0;
+		padding: 0;
+	}
+
+	a:link, a:visited, a:active {
+		font-family: Trebuchet MS, Arial, Tahoma, Century gothic, sans-serif;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+	input {
+		outline: 0;
+	}
+
+	input[type=text], input[type=password], input[type=text] {
+		height: 25px;
+		border: 1px solid #b9b9b9;
+		border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		-web-kit-border-radius: 6px 6px 6px 6px;
+		padding: 0 10px;
+		background: #F1F0C2;
+	}
+
+	input[type=checkbox] {
+		vertical-align: text-top;
+		margin: 3px 5px 1px 1px;
+	}
+
+	input[type=button], input[type=submit] {
+		height: 30px;
+		width: 80px;
+		border: none;
+		cursor: pointer;
+		text-align: center;
+		margin-top: 5px;
+		float: right;
+		color: white;
+		background-image: url(../media/images/bgb.png);
+		/*border-size*/
+		border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		-web-kit-border-radius: 6px 6px 6px 6px;
+	}
+
+	#suplink {
+		text-decoration: none;
+		padding: 15px 0px 0px 0px;
+	}
+
+	body {
+		background: #eceaea;
+		font-family: Trebuchet MS, Arial, Tahoma, Century gothic, sans-serif;
+		color: #161514;
+		font-size: 13px;
+		/*background: url(../media/images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+	}
+
+	/* ------- PAGE CONTAINERS */
+
+	#container, #mini {
+		margin: auto;
+		position: relative;
+		padding: 15px 20px 20px 35px;
+		line-height: 30px;
+		background: #fff;
+		border: 1px solid #e5e5e5;
+		-webkit-box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+		box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+		border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		-web-kit-border-radius: 6px 6px 6px 6px;
+	}
+
+	#container {
+		width: 960px;
+		margin-top: 40px;
+	}
+
+	#mini {
+		width: 280px;
+		margin-top: 200px;
+	}
+
+	/* -------  LOGIN FORM */
+
+	/* Mini banner do login*/
+
+	#loginform div {
+		width: 100%;
+		height: 77px;
+		margin: 0px;
+		padding: 0px;
+		background: url(../media/images/logo.png);
+	}
+
+	#loginform input[type=text], #loginform input[type=password], #cadastroform input[type=text] {
+		width: 240px;
+	}
+
+	/* BOT�ES DE A��O*/
+
+	#selector {
+		width: 260px;
+		float: none;
+	}
+
+	/* BARRA SUPERIOR */
+
+	#topbar {
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		padding: 0px;
+		margin: 0px;
+		background-color: #373737;
+		z-index: 9999;
+	}
+
+	#menubar {
+		margin: auto;
+		width: 1010px;
+		height: 25px;
+		background: #373737;
+		padding: 5px 5px 0px 0px;
+	}
+
+	#menubar ul {
+		float: right;
+	}
+
+	#menubar ul li {
+		padding: 0px 5px 0px 5px;
+		margin: 0px;
+		float: left;
+	}
+
+	#menubar, #menubar a {
+		color: #e1e1e1 !important;
+	}
+
+	#cadastroform td, th {
+		text-align: right;
+		line-height: 35px;
+		padding: 0px 30px 0px 0px;
+	}
+
+	#cadastroform legend {
+		font-size: 30px;
+		color: #373737;
+	}
+
+	/* PAGINA��O */
+
+	.paginacao ul {
+		list-style: none;
+		margin-left: 300px;
+	}
+
+	.paginacao ul li {
+		display: inline;
+		margin-right: 50px;
+	}
+
+	.paginacao a {
+		color: #333;
+		padding: 3px 5px;
+		border: 1px solid #ccc;
+		text-decoration: none;
+		margin: 0 3px;
+	}
+
+	.paginacao a:hover {
+		background: #333;
+		color: #fff;
+	}
+
+	.paginacao a.atual {
+		font-weight: bold;
+		background: #fff;
+		color: #333;
+		border: 0;
+		border-bottom: 1px solid #ccc;
+		font-size: 1.4em;
+	}
